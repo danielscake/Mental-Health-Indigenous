@@ -10,8 +10,7 @@ footer{
 }
 
 .container{
-    margin-top:10%;
-    margin-bottom:10%;
+    margin-top:5%;
 }
 
 .container-spacing{
@@ -33,4 +32,81 @@ footer{
 
 .bg-special-white{
     background-color:  #EEF2F5;
+}
+
+.pad{
+    margin-bottom: 40px;
+}
+
+.stat{
+    height:260px;
+}
+
+.human-image {
+    max-width:200px;
+        border-radius: 50%;
+    margin-top: 15px;
+    border: #13B25C 3px solid;
+    padding:15px;
+}
+
+
+.person-name{
+    position:absolute;
+    top:180px;
+    left:55px;
+    width:100%;
+}
+
+.person-name span{
+       color: white; 
+   font: 20px/45px Helvetica, Sans-Serif;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: #13B25C;
+   padding-top:10px;
+    padding-bottom:10px;
+    padding-left:30px;
+    padding-right:30px;
+}
+.button-success{
+    background-color: #13B25C;
+}
+
+.border3{
+    border-right: 2px solid #000000;
+    border-left: 1px solid #000000;
+}
+
+.border2{
+    border-left: 2px solid #000000;
+        border-right: 1px solid #000000;
+}
+
+.margin-top{
+    margin-top:40px;
+} 
+
+.badges{
+    width:70px;
+    padding:6px;
+}
+
+.icons{
+    width:45px;
+    padding:4px;
+}
+
+.card-primary{
+    background-color: #F1D3CA;
+    border:none;
+}
+
+.card-secondary{
+    background-color: #F5E9C4;
+    border:none;
+}
+
+.card-success{
+    background-color: #D4E9DE;
+    border:none;
 }
