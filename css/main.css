@@ -1,1 +1,36 @@
-css
+footer{   
+
+        padding:1%;
+    color:#000000;
+}
+
+.bg-almost-black{
+    background-color: #ffffff;
+    
+}
+
+.container{
+    margin-top:10%;
+    margin-bottom:10%;
+}
+
+.container-spacing{
+    margin-bottom:44%;
+}
+
+.logo{
+    max-width:60px;
+    padding:2px;
+    margin:2px;
+}
+
+.logo2{
+    width:60%;
+    max-width:200px;
+    padding:2px;
+    margin:2px;
+}
+
+.bg-special-white{
+    background-color:  #EEF2F5;
+}
