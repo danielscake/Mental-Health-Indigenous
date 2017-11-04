@@ -82,6 +82,10 @@ footer{
         border-right: 1px solid #000000;
 }
 
+.border4{
+        border-right: 1px solid #000000;
+}
+
 .margin-top{
     margin-top:40px;
 } 
@@ -103,7 +107,7 @@ footer{
 
 .card-secondary{
     background-color: #F5E9C4;
-    border:none;
+    border:none; 
 }
 
 .card-success{
