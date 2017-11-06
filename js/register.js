@@ -13,7 +13,7 @@ $('.form').find('input, textarea').on('keyup blur focus', function (e) {
     	if( $this.val() === '' ) {
     		label.removeClass('active highlight'); 
 			} else {
-		    label.removeClass('highlght');   
+		    label.removeClass('highlight');   
 			}   
     } else if (e.type === 'focus') {
       
@@ -34,7 +34,7 @@ $('.tab a').on('click', function (e) {
   $(this).parent().addClass('active');
   $(this).parent().siblings().removeClass('active');
   
-  target = $(this).attr('href);
+  target = $(this).attr('href');
 
   $('.tab-content > div').not(target).hide();
   
