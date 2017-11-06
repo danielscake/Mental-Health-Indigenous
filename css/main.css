@@ -83,7 +83,7 @@ footer{
 }
 
 .border4{
-        border-right: 1px solid #000000;
+        border-right: 1px solid #A5A4A5;
 }
 
 .margin-top{
@@ -92,7 +92,7 @@ footer{
 
 .badges{
     width:70px;
-    padding:6px;
+    padding:10px;
 }
 
 .icons{
@@ -113,4 +113,17 @@ footer{
 .card-success{
     background-color: #D4E9DE;
     border:none;
+}
+
+.card{
+    border-radius: 0 !important;
+}
+
+.no-spacing{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.top-pad{
+    padding-top: 15px;
 }
