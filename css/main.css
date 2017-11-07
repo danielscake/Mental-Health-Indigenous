@@ -163,7 +163,7 @@ footer{
 
 .btn-red {
   color: #000;
-  background-color: #EA4939;
+  background-color: rgba(229, 153, 137, 0.5);
   border-color: #000;
     border-radius: 0;
 }
@@ -207,6 +207,25 @@ footer{
   background-color: #60B290;
   border-color: #000;
     border-radius: 0;
+}
+
+.card-light-green{
+    background-color: #D4E9DE;
+    border:none;
+    color:#fff;
+    padding:30px;
+}
+.card-light-red{
+    background-color: rgba(229, 153, 137, 0.5);
+    border:none;
+    color:#fff;
+    padding:30px;
+}
+.card-light-yellow{
+    background-color: #F5E9C4;
+    border:none;
+    color:#fff;
+    padding:30px;
 }
 
 .modal-radius{
