@@ -17,6 +17,7 @@
 
 <body class="bg-special-white">
 
+
     <nav class="navbar navbar-expand-lg navbar-light bg-almost-black">
         <img class="logo" src="assets/my-abor-logo-v3@4x.png">
         <a class="navbar-brand" href="#"></a>
@@ -35,7 +36,7 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="home.html">Home</a>
                         <a class="dropdown-item" href="journal.html">Journal</a>
-                        <a class="dropdown-item" href="history.html">Community</a>
+                        <a class="dropdown-item" href="#">Community</a>
                         <a class="dropdown-item" href="learning.html">Learning Resources</a>
                         <a class="dropdown-item" href="your-progress.html">Your Progress</a>
                         <a class="dropdown-item" href="#">History</a>
@@ -45,7 +46,7 @@
 
 
                 <li class="nav-item">
-                    <a class="nav-link" href="assistance.html">Assistance</a>
+                    <a class="nav-link" href="#">Assistance</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="index.html">Log-out</a>
@@ -53,83 +54,51 @@
             </ul>
         </div>
     </nav>
+    <div class="container">
+       <h3 class="text-center">You can journal using any method you like!</h3>
+       <div class="bottom-margin"></div>
+        <div class="row my-flex-card">
 
-    <ul class="nav nav-tabs" id="myTab" role="tablist">
-        <li class="nav-item">
-            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Activites</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Completed</a>
-        </li>
-    </ul>
-    <div class="tab-content container-fluid" id="myTabContent">
-        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-            <div class="">
-               <h3 class="text-center">Your Suggested Activities:</h3>
-                <div class="row my-flex-card">
-                   
-                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                        <div class="card">
-                            <div class="card-body card-green">
-                                <h5 class="card-title text-center">Emotional Reflection</h5>
-                            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                <a href="journal.html">
+                    <div class="card">
+                        <div class="card-body card-green">
+                            <h5 class="card-title text-center">Journal</h5>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                       <a href="historical-education.html">
-                        <div class="card">
-                            <div class="card-body card-red">
-                                <h5 class="card-title text-center">Historical Education</h5>
-                            </div>
-                        </div>
-                        </a>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                        <div class="card">
-                            <div class="card-body card-yellow">
-                                <h5 class="card-title text-center">Environmental Stimulation
-                                </h5>
-                            </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                <a href="#">
+                    <div class="card">
+                        <div class="card-body card-red">
+                            <h5 class="card-title text-center">Questionnaire</h5>
                         </div>
                     </div>
+                </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                <a href="learning.html">
+                    <div class="card">
+                        <div class="card-body card-yellow">
+                            <h5 class="card-title text-center">Video
+                            </h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
 
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                <div class="card">
+                    <div class="card-body card-yellow">
+                        <h5 class="card-title text-center">Audio
+                        </h5>
+                    </div>
                 </div>
-<h3 class="text-center">All Activities:</h3>
-                <div class="row my-flex-card">
-                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                        <div class="card">
-                            <div class="card-body card-green">
-                                <h5 class="card-title text-center">Goal Setting</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                        <div class="card">
-                            <div class="card-body card-red">
-                                <h5 class="card-title text-center">Identity</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                        <div class="card">
-                            <div class="card-body card-yellow">
-                                <h5 class="card-title text-center">Thoughts</h5>
-                            </div>
-                        </div>
-                    </div>
+            </div>
 
-                </div>
-                <div class="pad"></div>
-
-
-                <div class="pad"></div>
         </div>
-        </div>
-        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+        <div class="pad"></div>
     </div>
-
-
-
 
     <footer class="footer text-center bg-almost-black fixed-bottom">
         <div class="row">
@@ -143,7 +112,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-    <script src="js/tabs.js" </script>
-    </body>
+    <script src="js/modal.js"></script>
+</body>
 
 </html>
