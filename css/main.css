@@ -30,6 +30,13 @@ footer{
     margin:2px;
 }
 
+.logo3{
+    width:100%;
+    max-width:700px;
+    padding:2px;
+    margin:2px;
+}
+
 .bg-special-white{
     background-color:  #EEF2F5;
 }
@@ -114,17 +121,17 @@ footer{
 }
 
 .card-primary{
-    background-color: #F1D3CA;
+    background-color: #10C1C1;
     border:none;
 }
 
 .card-secondary{
-    background-color: #F5E9C4;
+    background-color: #EA4939;
     border:none; 
 }
 
 .card-success{
-    background-color: #D4E9DE;
+    background-color: #17BC65;
     border:none;
 }
 
@@ -156,7 +163,7 @@ footer{
 
 .btn-red {
   color: #000;
-  background-color: #F1D3CA;
+  background-color: #EA4939;
   border-color: #000;
     border-radius: 0;
 }
@@ -176,10 +183,14 @@ footer{
 }
 
 .btn-success{
-    background-color:#60B290;
+    background-color:#17BC65;
     color:#fff;
 }
 
+.btn-clear{
+    background-color:gray;
+    color:#fff;
+}
 
 .btn-quarter{
     margin-top:20px;
@@ -203,23 +214,50 @@ footer{
 }
 
 .card-green{
-    background-color: #D4E9DE;
+    background-color: #17BC65;
     border:none;
     color:#fff;
-    padding:40px;
+    padding:30px;
+}
+
+.card-green2{
+    background-color: #17BC65;
+    border:none;
+    color:#fff;
+    padding:30px;
+    padding-bottom:55px;
 }
 .card-red{
-    background-color: #F1D3CA;
+    background-color: #EA4939;
     border:none;
     color:#fff;
-    padding:40px;
+    padding:30px;
+}
+
+.card-red2{
+    background-color: #EA4939;
+    border:none;
+    color:#fff;
+    padding:30px;
+        padding-bottom:55px;
 }
 
 .card-yellow{
-    background-color: #F5E9C4;
+    background-color: #10C1C1;
     border:none;
     color:#fff;
-    padding:40px;
+    padding:30px;
+}
+
+.card-purple{
+    background-color: #F4D6A2;
+    border:none;
+    color:#fff;
+    padding:30px;
+}
+
+.card-history{
+            padding-bottom:13px;
 }
 
 
@@ -302,7 +340,9 @@ a, a:hover, a:focus {
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: #F1D3CA;
+    background: #EA4939;
+    color:white;
+    padding-bottom:50px;
 }
 
 #sidebar ul.components {
@@ -327,7 +367,7 @@ a, a:hover, a:focus {
 
 #sidebar ul li.active > a, a[aria-expanded="true"] {
     color: #828282;
-    background: #F1D3CA;
+    background: ;
 }
 
 
@@ -351,7 +391,7 @@ a[aria-expanded="true"]::before {
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: #6d7fcc;
+    background: #EA4939;
 }
 
 ul.CTAs {
@@ -368,11 +408,11 @@ ul.CTAs a {
 
 a.download {
     background: #fff;
-    color: #7386D5;
+    color: #EA4939;
 }
 
 a.article, a.article:hover {
-    background: #6d7fcc !important;
+    background: #EA4939 !important;
     color: #fff !important;
 }
 
