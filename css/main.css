@@ -34,6 +34,10 @@ footer{
     background-color:  #EEF2F5;
 }
 
+.whitetext{
+    color:#fff !important;
+}
+
 .pad{
     margin-bottom: 40px;
 }
@@ -382,6 +386,9 @@ a.article, a.article:hover {
     min-height: 100vh;
     transition: all 0.3s;
 }
+
+
+
 
 
 
