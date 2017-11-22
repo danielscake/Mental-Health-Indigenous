@@ -38,7 +38,7 @@ footer{
 }
 
 .bg-special-white{
-    background-color:  #EEF2F5;
+    background-color:  #f6f6f6;
 }
 
 .whitetext{
@@ -123,6 +123,11 @@ footer{
 .card-primary{
     background-color: #10C1C1;
     border:none;
+}
+
+.btn-primary{
+    background-color: #fff;
+    color: #585858;
 }
 
 .card-secondary{
@@ -283,6 +288,41 @@ footer{
 .my-flex-card > div > div.card {
     height: calc(100% - 15px);
     margin-bottom: 15px;
+}
+
+.card-header {
+  color:#E99353;
+  background-color: #fff;
+}
+
+.orange{
+    background-color: #E99353;
+}
+
+.icon-history{
+        padding-right:0px;
+    padding-left:50px;
+    padding-top:50px;
+    padding-bottom:50px;
+    width:80%;
+}
+.learning-header{
+    padding-left:0px;
+    padding-right:50px;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 10vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+.card-rounded{
+    border-radius: 10px;
 }
 
 p2{
