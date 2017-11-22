@@ -280,6 +280,15 @@ footer{
     padding:30px;
 }
 
+.card-main-margin{
+    margin-bottom:30px;
+    margin-top:30px;
+}
+
+.card-bottom-margin{
+    margin-bottom: 30px;
+}
+
 .card-history{
             padding-bottom:13px;
 }
