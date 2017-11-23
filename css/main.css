@@ -330,8 +330,8 @@ footer{
   align-items: center;
 }
 
-.card-rounded{
-    border-radius: 10px;
+#card-rounded{
+    border-radius: 20px;
 }
 
 p2{
