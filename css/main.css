@@ -298,7 +298,7 @@ footer{
 }
 
 .card-header {
-  color:#E99353;
+  color:#656565;
   background-color: #fff;
 }
 
@@ -329,7 +329,7 @@ footer{
 }
 
 #card-rounded{
-    border-radius: 20px;
+    border-radius:10px !important;
 }
 
 p2{
@@ -342,6 +342,93 @@ p2{
 
 .emotion-visual{
     width:90%;
+}
+
+.arrow_size{
+    width:20px;
+}
+
+.calendar_margin_left{
+    width:30px;
+    margin-left: 10px;
+    margin-top:10px;
+}
+
+.progress_header_top_margin{
+    margin-top:10px;
+}
+
+.card_header_padding{
+    padding-top:20px;
+    padding-right:20px;
+    padding-left:20px;
+    color:#656565;
+}
+
+.card_text_padding{
+    margin-top:-10px;
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.inner_card{
+    margin:25px;
+    background-color: #fcfcfc;
+    border-color: #DFDFDF;
+    border-radius:10px !important;
+}
+
+.text_inner_card{
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #4D4D4D;
+}
+
+.text_inner_card_p{
+    margin-left:10px;
+    font-size: 12px;
+    color: #4D4D4D;
+}
+
+.text_inner_card_percent{
+    position: relative;
+top: 50%;
+transform: translateY(-50%); 
+    color: #4D4D4D;
+}
+
+.card-radius-shadow {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  border-radius:10px !important;
+}
+
+.card-button{
+    background-color: #56C89E;
+    color:#fff;
+    padding-left:40px;
+    padding-right:40px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius:10px;
+    margin-top:30px;
+    margin-left:30px;
+}
+
+.bottom-padding{
+    padding-bottom: 20px;
+}
+.pad1{
+    margin-bottom:60px;
+}
+
+.form-space{
+    margin-left: 20px;
+    margin-right:20px;
+    color:#000;
+}
+
+.big-form{
+    height:100px !important;
 }
 
 /*
