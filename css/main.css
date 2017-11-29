@@ -453,6 +453,11 @@ p2 {
     margin-top: 125px;
 }
 
+.navbar-background{
+    background-image:  url("assets/jesse-brack-169155%20copy.jpg");
+    background-color: #000;
+}
+
 
 .form-space {
     margin-left: 20px;
