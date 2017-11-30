@@ -463,8 +463,11 @@ p2 {
 }
 
 .navbar-background{
-    background-image:  url("assets/jesse-brack-169155%20copy.jpg");
-    background-color: #000;
+    background-image: url("assets/header-bck.png") !important;
+}
+
+.overflow{
+    overflow:hidden;
 }
 
 .text2{
@@ -625,6 +628,8 @@ a:focus {
     color: #828282;
     transition: all 0.3s;
 }
+
+
 
 #sidebar .sidebar-header {
     padding: 20px;
