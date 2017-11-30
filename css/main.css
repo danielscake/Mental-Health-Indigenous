@@ -463,11 +463,16 @@ p2 {
 }
 
 .navbar-background{
-    background-image: url("assets/header-bck.png") !important;
+    background-image: url("/assets/header-bck.png");
 }
 
 .overflow{
     overflow:hidden;
+}
+
+.greentext{
+    color: #56C89E;
+    font-weight: 500;
 }
 
 .text2{
