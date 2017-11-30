@@ -314,6 +314,14 @@ footer {
     width: 80%;
 }
 
+.clock-icon{
+        padding-right: 0px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 80%;
+}
+
 .learning-header {
     padding-left: 0px;
     padding-right: 50px;
@@ -344,6 +352,7 @@ p2 {
 
 .emotion-visual {
     width: 90%;
+    margin-left:5%;
 }
 
 .arrow_size {
