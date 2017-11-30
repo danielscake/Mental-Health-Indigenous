@@ -496,9 +496,9 @@ p2 {
 }
 
 .sponsor-pad{
-    padding:20px;
-    width: 30%;
-    min-width:100px;
+    padding:10px;
+    width: 25%;
+    min-width:80px;
 }
 
 .img-index{
@@ -506,9 +506,16 @@ p2 {
 }
 
 .sponsor-pad2{
-    padding:20px;
-    width: 70%;
-    min-width:100px;
+    padding:10px;
+    width: 60%;
+    min-width:80px;
+}
+
+.sponsor-pad3{
+    margin-left:100px;
+    padding:10px;
+    width: 25%;
+    min-width:80px;
 }
 .form-space {
     margin-left: 20px;
